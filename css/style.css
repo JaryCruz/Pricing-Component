@@ -172,9 +172,12 @@ main .options-container {
 .card-white h2 {
   color: var(--dark-gray-blue);
 }
+.card-white p {
+  color: var(--dark-gray-blue)
+}
 
 .card-white hr {
-  border-top: 0.5px solid var(--light-gray-blue);
+  border-top: 0.5px solid var(--very-light-gray-blue);
 }
 
 .card-white button {
@@ -203,9 +206,14 @@ main .options-container {
   color: #fff;
 }
 
+.card-purple p {
+  color: #fff;
+}
+
 .card-purple button {
   margin-top: 10px; 
   color: hsl(237, 63%, 64%);
+  background-color: #fff;
 }
 
 .card-purple button:hover {
